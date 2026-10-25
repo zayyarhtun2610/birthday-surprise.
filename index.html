@@ -1,0 +1,337 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#fff0f6">
+  <title>Happy Birthday, My Love 💗</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Pacifico&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="balloon-layer" id="balloonLayer"></div>
+
+  <!-- Birthday popup -->
+  <div class="welcome-overlay" id="welcomeOverlay">
+    <div class="welcome-card">
+      <div class="mini-heart">♥</div>
+      <p class="eyebrow">A little surprise just for you</p>
+
+      <h1>Happy Birthday,<br><span>My Love!</span></h1>
+
+      <p class="welcome-copy">
+        Even though we're far apart, I hope this little
+        corner of the internet makes you feel how loved you are. 💗
+      </p>
+
+      <button class="primary-button" id="openSurprise">
+        Open your surprise ♡
+      </button>
+
+      <p class="tiny-note">Made with all my love, just for you</p>
+    </div>
+  </div>
+
+  <!-- Navigation -->
+  <header class="site-header">
+    <a class="brand" href="#home">♥ for my girl</a>
+
+    <button class="menu-toggle" id="menuToggle"
+      aria-label="Toggle menu" aria-expanded="false">☰</button>
+
+    <nav class="nav-links" id="navLinks">
+      <a href="#home">Home</a>
+      <a href="#memories">Memories</a>
+      <a href="#letter">My Letter</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#promise">Our Future</a>
+    </nav>
+
+    <span class="header-heart">♥</span>
+  </header>
+
+  <main>
+
+    <!-- Hero section -->
+    <section class="hero section-wrap" id="home">
+      <div class="hero-decoration deco-one">♡</div>
+      <div class="hero-decoration deco-two">✦</div>
+
+      <div class="hero-content">
+        <p class="eyebrow">Today is all about you</p>
+
+        <h2>
+          Happy Birthday,<br>
+          <span>Beautiful Girl</span> ♥
+        </h2>
+
+        <p class="hero-copy">
+          If I could wish for one thing, it would be to hold
+          you close today. Until then, here's a little piece
+          of my heart, made just for you.
+        </p>
+
+        <a class="primary-button link-button" href="#memories">
+          Explore our memories ♡
+        </a>
+
+        <p class="signature">All my love, always.</p>
+      </div>
+
+      <div class="hero-art">
+        <div class="sun-glow"></div>
+
+        <div class="hero-photo-frame">
+          <img
+            src="img/image16.jpg"
+            alt="Pink flowers in soft sunlight">
+        </div>
+
+        <span class="floating-heart heart-a">♥</span>
+        <span class="floating-heart heart-b">♡</span>
+        <span class="floating-heart heart-c">✦</span>
+      </div>
+    </section>
+
+    <!-- Memory cards -->
+    <section class="section-wrap memories-section" id="memories">
+      <div class="section-heading">
+        <p class="eyebrow">Little pieces of your story</p>
+        <h2>Our <span>Memories</span> ♡</h2>
+        <p>Every chapter of you is precious to me.</p>
+      </div>
+
+      <div class="memory-cards">
+        <a class="memory-card" href="#childhood">
+          <div class="memory-icon">🧸</div>
+          <h3>Your childhood</h3>
+          <p>5 little-you memories</p>
+          <span class="card-arrow">↗</span>
+        </a>
+
+        <a class="memory-card" href="#her-now">
+          <div class="memory-icon">🌷</div>
+          <h3>The girl I adore</h3>
+          <p>5 photos of you now</p>
+          <span class="card-arrow">↗</span>
+        </a>
+
+        <a class="memory-card" href="#us">
+          <div class="memory-icon">💑</div>
+          <h3>Us together</h3>
+          <p>5 moments of us</p>
+          <span class="card-arrow">↗</span>
+        </a>
+      </div>
+    </section>
+
+    <!-- 15-photo gallery -->
+    <section class="gallery-section section-wrap" id="gallery">
+      <div class="section-heading">
+        <p class="eyebrow">Fifteen little treasures</p>
+        <h2>A Gallery of <span>You & Us</span></h2>
+        <p>Replace these sample photos with your own favourites. 💗</p>
+      </div>
+
+      <!-- Her childhood: 5 photos -->
+      <div class="photo-group" id="childhood">
+        <div class="group-title">
+          <span class="group-emoji">🧸</span>
+          <div>
+            <h3>Your childhood</h3>
+            <p>Little you, who grew into my favourite person.</p>
+          </div>
+        </div>
+
+        <div class="photo-grid">
+          <figure class="photo-card">
+            <img src="img/image1.jpg" alt="Childhood memory 1">
+            <figcaption>Little sunshine ✨</figcaption>
+          </figure>
+
+          <figure class="photo-card">
+            <img src="img/image2.jpg" alt="Childhood memory 2">
+            <figcaption>Sweet little days</figcaption>
+          </figure>
+
+          <figure class="photo-card">
+            <img src="img/image3.jpg" alt="Childhood memory 3">
+            <figcaption>Always adorable</figcaption>
+          </figure>
+
+          <figure class="photo-card">
+            <img src="img/image4.jpg" alt="Childhood memory 4">
+            <figcaption>Tiny memories</figcaption>
+          </figure>
+
+          <figure class="photo-card">
+            <img src="img/image5.jpg" alt="Childhood memory 5">
+            <figcaption>My little star ⭐</figcaption>
+          </figure>
+        </div>
+      </div>
+
+      <!-- Her current photos: 5 photos -->
+      <div class="photo-group" id="her-now">
+        <div class="group-title">
+          <span class="group-emoji">🌷</span>
+          <div>
+            <h3>You, today</h3>
+            <p>Beautiful in every way, inside and out.</p>
+          </div>
+        </div>
+
+        <div class="photo-grid">
+          <figure class="photo-card">
+            <img src="img/image6.jpg" alt="Portrait 1">
+            <figcaption>My pretty girl 💗</figcaption>
+          </figure>
+
+          <figure class="photo-card">
+            <img src="img/image7.jpg" alt="Portrait 2">
+            <figcaption>That lovely smile</figcaption>
+          </figure>
+
+          <figure class="photo-card">
+            <img src="img/image8.jpg" alt="Portrait 3">
+            <figcaption>My favourite face</figcaption>
+          </figure>
+
+          <figure class="photo-card">
+            <img src="img/image9.jpg" alt="Portrait 4">
+            <figcaption>Simply you</figcaption>
+          </figure>
+
+          <figure class="photo-card">
+            <img src="img/image10.jpg" alt="Portrait 5">
+            <figcaption>My beautiful girl 🌸</figcaption>
+          </figure>
+        </div>
+      </div>
+
+      <!-- Couple photos: 5 photos -->
+      <div class="photo-group" id="us">
+        <div class="group-title">
+          <span class="group-emoji">💑</span>
+          <div>
+            <h3>Our little world</h3>
+            <p>Different places, one heart. More memories are waiting for us.</p>
+          </div>
+        </div>
+
+        <div class="photo-grid">
+          <figure class="photo-card">
+            <img src="img/image11.jpg" alt="Couple memory 1">
+            <figcaption>Us, always ♡</figcaption>
+          </figure>
+
+          <figure class="photo-card">
+            <img src="img/image12.jpg" alt="Couple memory 2">
+            <figcaption>My safe place</figcaption>
+          </figure>
+
+          <figure class="photo-card">
+            <img src="img/image13.jpg" alt="Couple memory 3">
+            <figcaption>Our kind of happiness</figcaption>
+          </figure>
+
+          <figure class="photo-card">
+            <img src="img/image14.jpg" alt="Couple memory 4">
+            <figcaption>One day, together</figcaption>
+          </figure>
+
+          <figure class="photo-card">
+            <img src="img/image15.jpg" alt="Couple memory 5">
+            <figcaption>To more memories 💞</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- Love letter -->
+    <section class="letter-section section-wrap" id="letter">
+      <div class="letter-card">
+        <div class="letter-flower">✿</div>
+
+        <p class="eyebrow">A letter from your favourite person</p>
+        <h2>To My <span>Birthday Girl</span> 💌</h2>
+
+        <p class="letter-greeting">My dearest love,</p>
+
+        <p>
+          Happy birthday to the girl who makes my world brighter
+          just by being in it. I wish I could be beside you today,
+          give you the biggest hug, and see your smile in person.
+        </p>
+
+        <p>
+          Even though there's distance between us, you are still
+          such a special part of my everyday life. I hope this new
+          year brings you peace, happiness, success, and so many
+          reasons to smile. You deserve all the beautiful things
+          life can offer.
+        </p>
+
+        <p>
+          Thank you for being you. I'll keep cheering for you,
+          supporting you, and choosing you. When the day finally
+          comes that we can celebrate side by side, I'm going to
+          make up for all these birthdays spent apart.
+        </p>
+
+        <p class="letter-signoff">I love you, today and always.</p>
+        <p class="signature big-signature">Forever yours, ♥</p>
+
+        <button class="secondary-button" id="moreLove">
+          One more thing…
+        </button>
+
+        <p class="hidden-message" id="hiddenMessage">
+          No matter how many miles are between us, you're always
+          close to my heart. I can't wait for our next chapter. 🫂💗
+        </p>
+      </div>
+    </section>
+
+    <!-- Promises -->
+    <section class="promise-section section-wrap" id="promise">
+      <div class="section-heading">
+        <p class="eyebrow">Until the distance disappears</p>
+        <h2>Our <span>Little Promises</span> ♡</h2>
+        <p>Things I want you to remember, even on the hard days.</p>
+      </div>
+
+      <div class="promise-list">
+        <div class="promise-item"><span>♡</span><p>I will keep choosing you, every day.</p></div>
+        <div class="promise-item"><span>☀</span><p>I will keep trying to make you smile.</p></div>
+        <div class="promise-item"><span>🌷</span><p>I will support your dreams and celebrate your wins.</p></div>
+        <div class="promise-item"><span>🫂</span><p>One day, we'll make memories without a screen between us.</p></div>
+        <div class="promise-item"><span>♥</span><p>Until then, I'll keep loving you from here.</p></div>
+      </div>
+    </section>
+
+    <!-- Ending -->
+    <section class="ending-section">
+      <div class="ending-hearts">♡ ♥ ♡</div>
+      <h2>Happy Birthday, My Love</h2>
+      <p>Here's to you, to us, and to all the beautiful days still ahead. 💗</p>
+      <p class="signature">With all my heart, always.</p>
+      <a href="#home" class="back-top">Back to the beginning ↑</a>
+    </section>
+
+  </main>
+
+  <footer>
+    <span>Made with love, just for you</span>
+    <span>♥</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
